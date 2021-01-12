@@ -1,0 +1,32 @@
+.banner {
+  background: transparent
+    url('../../assets/Toronto-skyline-reflection-of-buildings-in-Harbor-Bay-Harbor-Bay-Toronto-Canada-night-landscape-HD-Wallpapers-For-Tablets-Free-Download.jpg');
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 3em;
+  display: table;
+
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../assets/Toronto-skyline-reflection-of-buildings-in-Harbor-Bay-Harbor-Bay-Toronto-Canada-night-landscape-HD-Wallpapers-For-Tablets-Free-Download.jpg', sizingMethod='scale');
+}
+
+.bannerHeader {
+  display: table-cell;
+  vertical-align: bottom;
+  margin-bottom: 0;
+  font-size: 2em;
+  color: var(--colors-secondary-snow);
+}
+
+@media (min-width: 480px) {
+  .banner {
+    height: 500px;
+    // background-position: center;
+  }
+  .bannerHeader {
+    font-size: 3em;
+  }
+}

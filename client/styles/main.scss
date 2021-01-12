@@ -1,0 +1,24 @@
+@import './color.scss';
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+::webkit-scrollbar {
+  display: none;
+}
+body,
+html,
+#__next {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // background-color: var(--main-color);
+  overflow: hidden;
+}
