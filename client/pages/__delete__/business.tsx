@@ -1,4 +1,4 @@
-import MapComponent from '../components/MapComponent/MapComponent'
+import MapComponent from '../../components/MapComponent/MapComponent'
 
 const Business = () => {
   return (

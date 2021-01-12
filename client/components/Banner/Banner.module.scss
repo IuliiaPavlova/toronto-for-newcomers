@@ -1,6 +1,6 @@
 .banner {
   background: transparent
-    url('../../assets/Toronto-skyline-reflection-of-buildings-in-Harbor-Bay-Harbor-Bay-Toronto-Canada-night-landscape-HD-Wallpapers-For-Tablets-Free-Download.jpg');
+    url('../../assets/andre-furtado-vuhqtUqSVtE-unsplash.jpg');
   text-align: center;
   background-size: cover;
   background-position: center;
@@ -10,7 +10,7 @@
   margin-bottom: 3em;
   display: table;
 
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../assets/Toronto-skyline-reflection-of-buildings-in-Harbor-Bay-Harbor-Bay-Toronto-Canada-night-landscape-HD-Wallpapers-For-Tablets-Free-Download.jpg', sizingMethod='scale');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../assets/andre-furtado-vuhqtUqSVtE-unsplash.jpg', sizingMethod='scale');
 }
 
 .bannerHeader {
@@ -19,9 +19,19 @@
   margin-bottom: 0;
   font-size: 2em;
   color: var(--colors-secondary-snow);
+  text-shadow: 0 0 4px var(--colors-primary-cerulean);
+}
+@media (min-width: 480px) {
+  .banner {
+    height: 300px;
+    // background-position: center;
+  }
+  .bannerHeader {
+    font-size: 3em;
+  }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 768px) {
   .banner {
     height: 500px;
     // background-position: center;

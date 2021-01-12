@@ -1,18 +1,13 @@
 import React from 'react';
 import Banner from '../components/Banner/Banner';
-import TopBar from '../components/TopBar/TopBar';
+import MainQuestions from '../components/MainQuestions/MainQuestions';
+import TopBar from '../components/Layout/TopBar/TopBar';
 
 const Index = () => {
   return (
       <section className='body'>
         <Banner />
-
-        <div className='main-purpose'>
-          <div className='btn-main-purpose'>Business</div>
-          <div className='btn-main-purpose'>Tourism</div>
-          <div className='btn-main-purpose'>Immigration</div>
-
-        </div>
+        <MainQuestions />
       </section>
 
   );

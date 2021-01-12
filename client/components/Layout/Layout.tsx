@@ -1,6 +1,6 @@
 import { FunctionComponent } from 'react';
 
-import TopBar from '../TopBar/TopBar';
+import TopBar from './TopBar/TopBar';
 
 import css from './Layout.module.scss';
 
