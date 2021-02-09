@@ -12,11 +12,14 @@ const MainQuestions = () => {
     <div className={css.categoryList}>
       {
         categories.map((category) => (
-          <Link href={`/categories?cat=${category.type}`}>
+          <Link key={category.id} href={`/categories?cat=${category.type}`}>
             <div className={css.categoryItem}>
-              <h4>
+              <h3 className={css.categoryQuestion}>
                 {category.type}
-              </h4>
+              </h3>
+            <div className={css.categoryIcon}>
+              <category.icon className='icon'/>
+            </div>
             </div>
           </Link>
         ))

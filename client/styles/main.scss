@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 @import './color.scss';
 
 *,
@@ -22,4 +23,11 @@ html,
   // background-color: var(--main-color);
   overflow: hidden;
   color: var(--colors-primary-cerulean);
+  font-family: 'Nunito Sans', sans-serif;
+}
+.icon {
+  color: var(--colors-primary-cerulean);
+  font-size: 40px;
+  justify-self: center;
+  align-self: center;
 }

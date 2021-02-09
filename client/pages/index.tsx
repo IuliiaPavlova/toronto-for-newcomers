@@ -4,6 +4,7 @@ import MainQuestions from '../components/MainQuestions/MainQuestions';
 import TopBar from '../components/Layout/TopBar/TopBar';
 
 const Index = () => {
+  
   return (
       <section className='body'>
         <Banner />

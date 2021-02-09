@@ -1,8 +1,11 @@
+import { IconType } from 'react-icons/lib';
+import { MdBusiness } from 'react-icons/md';
+
 export const initialState = {
   categories: [
-    { type: 'Business' },
-    { type: 'Tourism' },
-    { type: 'Immigration' },
+    { id: 1, type: 'Business', icon: MdBusiness},
+    { id: 2, type: 'Tourism', icon: MdBusiness },
+    { id: 3, type: 'Immigration', icon: MdBusiness },
   ],
   
   params: [
@@ -12,7 +15,7 @@ export const initialState = {
     { type: 'I have kids' },
     { type: 'I don\'t speak English' },
     { type: 'I prefer to use subway' },
-    { type: 'I will use Public transportation' },
+    { type: 'I will use public transportation' },
     { type: 'I prefer to be close to downtown' },
     { type: 'I would like to live in a house' },
     { type: 'I would like to live in an apartment' },
@@ -25,7 +28,9 @@ export const initialState = {
 }
 
 export interface Category {
+  id: number;
   type: string;
+  icon: IconType;
 }
 
 export interface AppState {

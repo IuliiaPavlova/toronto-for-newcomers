@@ -18,7 +18,7 @@ const ParamQuestions = () => {
   
   console.log(cat)
 
-  const handleClick = (event) => {
+  const handleClick = (event: any) => {
     // console.log(event.target.checked)
     !event.target.checked
       ? dispatch(removeParam(event.target.value))
