@@ -1,0 +1,42 @@
+.banner {
+  background: transparent
+    url('../../assets/andre-furtado-vuhqtUqSVtE-unsplash.jpg');
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 3em;
+  display: table;
+
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../assets/andre-furtado-vuhqtUqSVtE-unsplash.jpg', sizingMethod='scale');
+}
+
+.bannerHeader {
+  display: table-cell;
+  vertical-align: bottom;
+  margin-bottom: 0;
+  font-size: 2em;
+  color: var(--colors-background-morning-sky);
+  text-shadow: 0 0 4px var(--colors-primary-cerulean);
+}
+@media (min-width: 480px) {
+  .banner {
+    height: 300px;
+    // background-position: center;
+  }
+  .bannerHeader {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner {
+    height: 500px;
+    // background-position: center;
+  }
+  .bannerHeader {
+    font-size: 3em;
+  }
+}

@@ -1,0 +1,31 @@
+.categoryList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.categoryItem {
+  border-radius: 8px;
+  text-align: center;
+  display: inline-block;
+  height: 15vh;
+  width: 250px;
+  gap: 5px;
+  margin: 10px 0 10px 0;
+  border: 1px solid var(--colors-primary-cerulean);
+  text-transform: uppercase;
+  text-shadow: 1px 1px var(--colors-secondary-honey);
+}
+.categoryQuestion {
+  padding: 0 20px 0 20px;
+}
+@media (min-width: 480px) {
+  .categoryList {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
