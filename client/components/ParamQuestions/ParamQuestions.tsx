@@ -1,15 +1,11 @@
 import { useRouter } from 'next/dist/client/router';
 import Link from 'next/link';
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addParam, removeParam } from '../../store/actions';
 import { AppState } from '../../store/init';
 
-
-
-
-
-const ParamQuestions = () => {
+const ParamQuestions: FunctionComponent = () => {
   const params = useSelector((store: AppState) => store.params);
   const dispatch = useDispatch();
   const router = useRouter();
