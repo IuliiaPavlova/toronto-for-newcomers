@@ -32,10 +32,13 @@ export interface Category {
   type: string;
   icon: IconType;
 }
+export interface Params {
+  type: string;
+}
 
 export interface AppState {
   categories: Category[];
-  params: Category[];
+  params: Params[];
   chosen: {
     category: string | null;
     params: string[];
