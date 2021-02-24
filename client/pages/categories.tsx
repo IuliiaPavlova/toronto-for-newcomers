@@ -1,7 +1,8 @@
+import { FunctionComponent } from 'react';
 import Banner from '../components/Banner/Banner';
 import ParamQuestions from '../components/ParamQuestions/ParamQuestions';
 
-const Categories = () => {
+const Categories: FunctionComponent = () => {
   return (
     <div>
       <Banner />

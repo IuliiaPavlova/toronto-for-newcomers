@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 import { useSelector } from 'react-redux';
 import Link from 'next/link';
 import { AppState } from '../../store/init';
 
 import css from './MainQuestions.module.scss'
 
-const MainQuestions = () => {
+const MainQuestions: FunctionComponent = () => {
   const categories = useSelector((store: AppState) => store.categories);
 
   return (

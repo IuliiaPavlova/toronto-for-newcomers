@@ -1,6 +1,7 @@
+import { FunctionComponent } from 'react';
 import css from './Banner.module.scss'
 
-const Banner = () => {
+const Banner: FunctionComponent = () => {
   return (
         <div className={css.banner}>
           <h2 className={css.bannerHeader}>
